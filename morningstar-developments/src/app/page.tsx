@@ -19,7 +19,25 @@ export default function Home() {
             title={heroPost.title || ""}
             coverImage={heroPost.coverImage || ""}
             date={heroPost.date || ""}
-            author={heroPost.author || { name: "", picture: "" }}
+            author={heroPost.author || {
+              id: "",
+              name: "",
+              picture: "",
+              bio: "",
+              email: "",
+              socialMedia: {},
+              articles: [],
+              expertise: [],
+              joinDate: new Date(),
+              lastActive: new Date(),
+              isVerified: false,
+              role: "contributor",
+              preferences: {
+                notifications: false,
+                newsletter: false,
+                publicProfile: false
+              }
+            }}
             slug={heroPost.slug || ""}
             excerpt={heroPost.excerpt || ""}
           />

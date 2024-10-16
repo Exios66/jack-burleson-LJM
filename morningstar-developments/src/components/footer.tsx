@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
@@ -22,6 +25,32 @@ export default function Footer() {
               View on GitHub
             </a>
           </div>
+        </div>
+        <div className="py-8 flex flex-col lg:flex-row justify-center items-center">
+          <a
+            href="https://github.com/Exios66"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-3 font-bold hover:underline"
+          >
+            <FontAwesomeIcon icon={faGithub} /> GitHub
+          </a>
+          <a
+            href="https://medium.com/@axios337"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-3 font-bold hover:underline"
+          >
+            <FontAwesomeIcon icon={faMedium} /> Medium
+          </a>
+          <a
+            href="https://linktr.ee/morningstar.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-3 font-bold hover:underline"
+          >
+            <FontAwesomeIcon icon={faLink} /> Linktree
+          </a>
         </div>
       </div>
     </footer>

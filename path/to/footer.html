@@ -1,0 +1,54 @@
+<footer>
+  <div className="container mx-auto px-5">
+    <div className="py-28 flex flex-col lg:flex-row items-center">
+      <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+        Statically Generated with Next.js.
+      </h3>
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
+        <a
+          href="https://nextjs.org/docs/basic-features/pages"
+          className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
+        >
+          Read Documentation
+        </a>
+        <a
+          href="https://github.com/vercel/next.js/tree/canary/examples/${process.env.NEXT_PUBLIC_EXAMPLE_PATH}"
+          className="mx-3 font-bold hover:underline"
+        >
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="social-links py-8 flex flex-col lg:flex-row justify-center items-center">
+    <a href="https://github.com/Exios66" target="_blank" rel="noopener noreferrer" class="mx-3 font-bold hover:underline">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://medium.com/@axios337" target="_blank" rel="noopener noreferrer" class="mx-3 font-bold hover:underline">
+      <i class="fab fa-medium"></i> Medium
+    </a>
+    <a href="https://linktr.ee/morningstar.ai" target="_blank" rel="noopener noreferrer" class="mx-3 font-bold hover:underline">
+      <i class="fas fa-link"></i> Linktree
+    </a>
+  </div>
+  <div className="container mx-auto px-5">
+    <div className="py-8 flex flex-col lg:flex-row justify-between items-center">
+      <div className="mb-4 lg:mb-0">
+        <p className="text-sm text-gray-600">
+          © {new Date().getFullYear()} Morningstar Developments. All rights reserved.
+        </p>
+      </div>
+      <nav className="flex flex-wrap justify-center lg:justify-end">
+        <a href="/about" className="mx-3 text-sm text-gray-600 hover:text-gray-900 mb-2 lg:mb-0">About</a>
+        <a href="/services" className="mx-3 text-sm text-gray-600 hover:text-gray-900 mb-2 lg:mb-0">Services</a>
+        <a href="/projects" className="mx-3 text-sm text-gray-600 hover:text-gray-900 mb-2 lg:mb-0">Projects</a>
+        <a href="/contact" className="mx-3 text-sm text-gray-600 hover:text-gray-900 mb-2 lg:mb-0">Contact</a>
+      </nav>
+    </div>
+    <div className="py-4 border-t border-gray-200">
+      <p className="text-xs text-center text-gray-500">
+        Designed and built with <span className="text-red-500">♥</span> using Next.js and Tailwind CSS
+      </p>
+    </div>
+  </div>
+</footer>

@@ -30,9 +30,29 @@ export function getPostBySlug(slug: string, fields: Array<keyof PostType> = []):
     if (field === 'author') {
       if (typeof data[field] === 'string') {
         items[field] = {
+          id: 'default-id',
           name: data[field],
-          picture: '/assets/blog/authors/default.jpg' // You may want to update this default picture
-        }
+          picture: '/assets/blog/authors/default.jpg',
+          bio: '',
+          email: '',
+          socialMedia: {
+            twitter: '',
+            linkedin: '',
+            github: '',
+            medium: ''
+          },
+          articles: [],
+          expertise: [],
+          joinDate: new Date(),
+          lastActive: new Date(),
+          isVerified: false,
+          role: 'contributor',
+          preferences: {
+            notifications: false,
+            newsletter: false,
+            publicProfile: false
+          }
+        } as Author
       } else if (typeof data[field] === 'object') {
         items[field] = data[field] as Author
       }
