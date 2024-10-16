@@ -34,7 +34,25 @@ export default async function Post({ params }: Params) {
             title={post.title || "Untitled"}
             coverImage={post.coverImage || ""}
             date={post.date || ""}
-            author={post.author || { name: "Unknown Author", picture: "" }}
+            author={post.author || { 
+              id: '',
+              name: "Unknown Author", 
+              picture: "",
+              bio: "",
+              email: "",
+              socialMedia: {},
+              articles: [],
+              expertise: [],
+              joinDate: new Date(),
+              lastActive: new Date(),
+              isVerified: false,
+              role: 'contributor',
+              preferences: {
+                notifications: false,
+                newsletter: false,
+                publicProfile: false
+              }
+            }}
           />
           <PostBody content={content} />
         </article>
