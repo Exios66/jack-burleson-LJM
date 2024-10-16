@@ -1,5 +1,5 @@
 import { PostPreview } from './post-preview'
-import type Post from '@/interfaces/post'
+import type Post from '@/morningstar-developments/src/interfaces/post'
 
 type Props = {
   posts: Post[]
