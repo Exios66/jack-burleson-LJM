@@ -96,6 +96,6 @@ export function generateMetadata({ params }: Params): Metadata {
 export async function generateStaticParams() {
   const posts = getAllPosts(['slug']);
   return posts.map((post) => ({
-    slug: post.slug,
+    slug: post.slug ?? '',
   }));
 }
