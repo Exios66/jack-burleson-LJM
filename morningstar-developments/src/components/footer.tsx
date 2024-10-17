@@ -1,7 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 const Footer: React.FC = () => {
@@ -34,7 +31,7 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="mx-3 font-bold hover:underline"
           >
-            <FontAwesomeIcon icon={faGithub} /> GitHub
+            GitHub
           </a>
           <a
             href="https://medium.com/@axios337"
@@ -42,7 +39,7 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="mx-3 font-bold hover:underline"
           >
-            <FontAwesomeIcon icon={faMedium} /> Medium
+            Medium
           </a>
           <a
             href="https://linktr.ee/morningstar.ai"
@@ -50,7 +47,7 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="mx-3 font-bold hover:underline"
           >
-            <FontAwesomeIcon icon={faLink} /> Linktree
+            Linktree
           </a>
         </div>
         <div className="authors">
