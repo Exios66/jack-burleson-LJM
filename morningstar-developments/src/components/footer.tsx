@@ -2,8 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer className="bg-accent-1 border-t border-accent-2">
       <div className="container mx-auto px-5">
@@ -52,7 +53,23 @@ export default function Footer() {
             <FontAwesomeIcon icon={faLink} /> Linktree
           </a>
         </div>
+        <div className="authors">
+          <h3>Our Team</h3>
+          <ul>
+            <li>
+              <Image
+                src="/assets/blog/authors/lucius-morningstar.jpg"
+                alt="Lucius Morningstar"
+                width={50}
+                height={50}
+              />
+              <span>Lucius Morningstar</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
-  )
-}
+  );
+};
+
+export default Footer;

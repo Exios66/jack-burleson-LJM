@@ -2,7 +2,9 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 import PostType from '../app/interfaces/post'
-import Author from '../app/interfaces/author'
+import { Author } from '../interfaces/author'
+// Remove the import for getAuthorData as it's not found
+// import { getAuthorData } from './authorData'
 
 const postsDirectory = join(process.cwd(), '_posts')
 
@@ -73,4 +75,13 @@ export function getAllPosts(fields: Array<keyof PostType> = []): Partial<PostTyp
     // sort posts by date in descending order
     .sort((post1, post2) => ((post1.date || '') > (post2.date || '') ? -1 : 1))
   return posts
+}
+
+export function getAuthorBySlug(slug: string) {
+  const authorData = getPostSlugs().map(slug => getPostBySlug(slug, ['author']));
+  const author = authorData.find(post => post.author && (post.author as Author).name === slug);
+  if (!author || !author.author) {
+    throw new Error(`Author with slug ${slug} not found`);
+  }
+  return author;
 }

@@ -1,18 +1,17 @@
-export type Author = {
-  id: string;
+export interface Author {
   name: string;
   picture: string;
-  bio: string;
+  bio?: string;
+  id: string;
   email: string;
-  website?: string;
   socialMedia: {
-    twitter?: string;
-    linkedin?: string;
-    github?: string;
-    medium?: string;
+    twitter: string;
+    linkedin: string;
+    github: string;
+    medium: string;
   };
-  articles: string[]; // Array of article IDs
-  expertise: string[];
+  articles: string[]; // Array of article IDs or slugs
+  expertise: string[]; // Array of expertise areas
   joinDate: Date;
   lastActive: Date;
   isVerified: boolean;
@@ -22,6 +21,6 @@ export type Author = {
     newsletter: boolean;
     publicProfile: boolean;
   };
-};
+}
 
 export default Author;
