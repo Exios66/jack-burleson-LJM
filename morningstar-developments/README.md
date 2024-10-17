@@ -1,69 +1,69 @@
-# Morningstar Developments Blog
+# Welcome to Jack J Burleson's Portfolio (Pen Name: Lucius J Morningstar)
 
-This is a blog for Morningstar Developments built with [Next.js](https://nextjs.org) and bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About Me
 
-## Getting Started
+Hello! I'm Jack J Burleson (also known by the pen name Lucius J Morningstar), a passionate researcher and developer at the intersection of neuroscience, artificial intelligence, and clinical psychology. My work spans multiple disciplines, combining cutting-edge technology with a deep understanding of the human mind.
 
-First, install the dependencies:
+### 🧠 Neuroscience & Computational Neuroscience
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+My fascination with the brain's intricate workings drives my research in neuroscience. I'm particularly interested in:
 
-Then, run the development server:
+- Neural network modeling
+- Brain-computer interfaces
+- Cognitive processes and their computational analogues
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 🤖 Machine Learning & Artificial Intelligence
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I leverage ML and AI techniques to push the boundaries of what's possible in neuroscience and psychology:
 
-## Blog Posts
+- Deep learning architectures for brain signal analysis
+- Reinforcement learning models of decision-making
+- AI-assisted diagnosis and treatment planning in mental health
 
-Blog posts are stored as Markdown files in the `_posts` directory. To add a new blog post, create a new .md file in this directory with the following format:
+### 💬 Natural Language Processing (NLP)
 
-```markdown
----
-title: 'Your Blog Post Title'
-excerpt: 'A brief excerpt of your blog post'
-coverImage: '/assets/blog/your-post/cover.jpg'
-date: '2023-05-16T05:35:07.322Z'
-author:
-  name: Your Name
-  picture: '/assets/blog/authors/your-picture.jpg'
-ogImage:
-  url: '/assets/blog/your-post/cover.jpg'
----
+My work in NLP focuses on:
 
-Your blog post content goes here...
-```
+- Sentiment analysis in clinical settings
+- Automated analysis of therapy transcripts
+- Language models for mental health chatbots
 
-## Learn More
+### 👩‍⚕️ Clinical Psychology
 
-To learn more about Next.js, take a look at the following resources:
+I'm dedicated to applying technological advancements to improve mental health care:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Digital interventions for mental health disorders
+- Predictive modeling of treatment outcomes
+- AI-enhanced cognitive behavioral therapy (CBT) tools
 
-## Deploy on Vercel
+### 📊 Data Science
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+My data science skills support all aspects of my research:
 
-To deploy your blog:
+- Big data analysis of neuroimaging datasets
+- Predictive modeling of psychological phenomena
+- Data visualization of complex neural and behavioral patterns
 
-1. Push your code to a GitHub repository.
-2. Go to [Vercel](https://vercel.com) and sign up or log in.
-3. Click on "New Project" and select your GitHub repository.
-4. Follow the steps in the Vercel UI to deploy your project.
+## Projects
 
-Vercel will automatically detect that you're using Next.js and set up the build configuration for you.
+Here are some of my key projects that showcase the intersection of my interests:
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **[Project Name]**: A neural network model for predicting treatment outcomes in mental health.
+2. **[Project Name]**: An NLP-based system for automated analysis of therapy sessions.
+3. **[Project Name]**: A brain-computer interface for assisting locked-in patients with communication.
+
+[Add more projects as needed]
+
+## Skills
+
+- Programming Languages: Python, R, MATLAB, JavaScript
+- ML/AI Frameworks: TensorFlow, PyTorch, scikit-learn
+- Neuroimaging Tools: FSL, SPM, AFNI
+- Data Analysis: Pandas, NumPy, SciPy
+- Visualization: Matplotlib, Seaborn, D3.js
+- Version Control: Git, GitHub
+- Cloud Platforms: AWS, Google Cloud
+
+## Publications
+
+[List any relevant publications, presentations, or conference papers]
