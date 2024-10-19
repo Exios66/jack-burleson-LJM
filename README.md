@@ -1,5 +1,26 @@
 # Welcome to Jack J Burleson's Portfolio (Pen Name: Lucius J Morningstar)
 
+![Last Commit](https://img.shields.io/github/last-commit/Exios66/jack-burleson-LJM?style=flat-square)
+
+
+![Stars](https://img.shields.io/github/stars/Exios66/jack-burleson-LJM?style=flat-square)
+
+
+![Forks](https://img.shields.io/github/forks/Exios66/jack-burleson-LJM?style=flat-square)
+
+
+![Open Issues](https://img.shields.io/github/issues/Exios66/jack-burleson-LJM?style=flat-square)
+
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
+
+
+![Medium](https://img.shields.io/badge/Medium-00AB6C?style=flat-square&logo=medium&logoColor=white)
+
+
 ## About Me
 
 Hello! I'm Jack J Burleson (also known by the pen name Lucius J Morningstar), a passionate researcher and developer at the intersection of neuroscience, artificial intelligence, and clinical psychology. My work spans multiple disciplines, combining cutting-edge technology with a deep understanding of the human mind.
