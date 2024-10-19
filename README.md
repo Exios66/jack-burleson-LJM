@@ -1,25 +1,41 @@
 # Welcome to Jack J Burleson's Portfolio (Pen Name: Lucius J Morningstar)
 
-![Last Commit](https://img.shields.io/github/last-commit/Exios66/jack-burleson-LJM?style=flat-square)
+## Project Badges
 
+![Last Commit](https://img.shields.io/github/last-commit/Exios66/jack-burleson-LJM?style=flat-square&color=blue)
+![Build Status](https://github.com/Exios66/jack-burleson-LJM/actions/workflows/ci.yml/badge.svg)
+![Code Coverage](https://img.shields.io/codecov/c/github/Exios66/jack-burleson-LJM?style=flat-square)
+![License](https://img.shields.io/github/license/Exios66/jack-burleson-LJM?style=flat-square&color=yellow)
+![Version](https://img.shields.io/github/package-json/v/Exios66/jack-burleson-LJM?style=flat-square&color=purple)
 
-![Stars](https://img.shields.io/github/stars/Exios66/jack-burleson-LJM?style=flat-square)
+## Community Badges
 
+![Stars](https://img.shields.io/github/stars/Exios66/jack-burleson-LJM?style=social)
+![Forks](https://img.shields.io/github/forks/Exios66/jack-burleson-LJM?style=social)
+![Watchers](https://img.shields.io/github/watchers/Exios66/jack-burleson-LJM?style=social)
+![Contributors](https://img.shields.io/github/contributors/Exios66/jack-burleson-LJM?style=flat-square&color=brightgreen)
+![Followers](https://img.shields.io/github/followers/Exios66?style=social)
 
-![Forks](https://img.shields.io/github/forks/Exios66/jack-burleson-LJM?style=flat-square)
+## Development Badges
 
+![Top Language](https://img.shields.io/github/languages/top/Exios66/jack-burleson-LJM?style=flat-square&color=red)
+![Language Count](https://img.shields.io/github/languages/count/Exios66/jack-burleson-LJM?style=flat-square&color=orange)
+![Code Size](https://img.shields.io/github/languages/code-size/Exios66/jack-burleson-LJM?style=flat-square&color=blueviolet)
+![Repo Size](https://img.shields.io/github/repo-size/Exios66/jack-burleson-LJM?style=flat-square&color=ff69b4)
+![Lines of Code](https://img.shields.io/tokei/lines/github/Exios66/jack-burleson-LJM?style=flat-square&color=important)
 
-![Open Issues](https://img.shields.io/github/issues/Exios66/jack-burleson-LJM?style=flat-square)
+## Issue Tracking Badges
 
+![Open Issues](https://img.shields.io/github/issues/Exios66/jack-burleson-LJM?style=flat-square&color=critical)
+![Closed Issues](https://img.shields.io/github/issues-closed/Exios66/jack-burleson-LJM?style=flat-square&color=lightgrey)
+![Open PRs](https://img.shields.io/github/issues-pr/Exios66/jack-burleson-LJM?style=flat-square&color=success)
+![Closed PRs](https://img.shields.io/github/issues-pr-closed/Exios66/jack-burleson-LJM?style=flat-square&color=blue)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+## Activity and Social Badges
 
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
-
-
-![Medium](https://img.shields.io/badge/Medium-00AB6C?style=flat-square&logo=medium&logoColor=white)
-
+![Commit Activity](https://img.shields.io/github/commit-activity/m/Exios66/jack-burleson-LJM?style=flat-square&color=brightgreen)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/Exios66?style=flat-square&color=ff69b4)
+![Downloads](https://img.shields.io/github/downloads/Exios66/jack-burleson-LJM/total?style=flat-square&color=orange)
 
 ## About Me
 
