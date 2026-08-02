@@ -14,7 +14,7 @@
     "bail": "^2.0.2",
     "balanced-match": "^1.0.2",
     "binary-extensions": "^2.3.0",
-    "brace-expansion": "^2.0.1",
+    "brace-expansion": "^2.1.3",
     "braces": "^3.0.3",
     "browserslist": "^4.24.0",
     "busboy": "^1.6.0",
